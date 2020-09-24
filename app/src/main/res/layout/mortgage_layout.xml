@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/principleBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -32,10 +32,10 @@
         android:text="Amortization (in years)"
         android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/principleBox" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/amortBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -51,7 +51,7 @@
         android:text="Interest (as an annual percent)"
         android:textStyle="italic"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/amortBox" />
 
     <Button
         android:id="@+id/button"
@@ -60,10 +60,10 @@
         android:text="Monthly Payment"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintTop_toBottomOf="@+id/interestBox" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/interestBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -73,10 +73,9 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/payment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="$3,000.00"
         android:textColor="#FF0000"
         android:textSize="36sp"
         android:textStyle="bold"
