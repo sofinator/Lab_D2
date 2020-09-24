@@ -1,3 +1,5 @@
+//Student Name: Sophia Nguyen
+//This project was done individually
 package ca.yorku.lab_d2;
 
 public class MortgageModel
